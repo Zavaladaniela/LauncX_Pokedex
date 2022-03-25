@@ -1,0 +1,531 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(https://cdn.wallpapersafari.com/3/2/diYpxD.jpg);
+}
+main{
+    background-image: url(https://cdn.wallpapersafari.com/3/2/diYpxD.jpg);
+   
+}
+.titulo{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 3rem;
+    border: .3rem solid black;
+    display: flex;
+    background-color: beige;
+}
+.principal{
+    display: flex;
+
+    padding: 0rem 3rem;
+    width: 75rem;
+    height: 60rem;
+    background-color: rgb(165, 15, 15);;
+    border: .3rem solid black;
+    border-radius: 1rem;
+}
+section{
+    margin: 0rem 30rem;
+}
+.pokebola1{
+    margin-top: 2rem;
+    margin-left: 30rem;
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    /* border-radius: 50%;
+    border: .3rem solid black; */
+}
+.pokebola2{
+    margin-top: 51rem;
+    margin-left: 30rem;
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    /* border-radius: 50%;
+    border: .3rem solid black; */
+}
+
+.recDerecho{
+    display: inline;
+    margin-top: 5rem;
+    margin-right: 1.5rem;
+    background-color: rgb(241, 60, 60);
+    border: .3rem solid black;
+    border-radius: .8rem;
+    width: 40rem;
+    height: 52rem;
+}
+.detalles{
+    display: flex;
+    position: absolute;
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+.detalle1{
+    margin-right: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    border: .2rem solid black;
+    border-radius: 50%;
+}
+.detalle2{
+    margin-right: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: orange;
+    border: .2rem solid black;
+
+    border-radius: 50%;
+}
+.detalle3{
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border: .2rem solid black;
+    border-radius: 50%;
+}
+.fotoPrincipal{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    width: 25rem;
+    height: 30rem;
+    background-color: gray;
+    border: .3rem solid black;
+    border-radius: 5% 20%;
+}
+.foto{
+    text-align: center;
+    margin-left: .7rem;
+    margin-top: .8rem;
+    width: 23rem;
+    height: 23rem;
+    background-color: white;
+    border: .3rem solid black;
+    border-radius: 5% 20%;
+}
+.foto img{
+    border-radius: 5% 20%;
+}
+.detalle4{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: red;
+    border: .2rem solid black;
+    border-radius: 50%;
+}
+.detalles2{
+    display: flex;
+}
+.lineas{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 13rem;
+}
+.lineas1{
+    width: 10rem;
+    height: .3rem;
+    background-color: black;
+}
+.lineas2{
+    margin-top: .3rem;
+    width: 10rem;
+    height: .3rem;
+    background-color: black;
+}
+.lineas3{
+    margin-top: .3rem;
+    width: 10rem;
+    height: .3rem;
+    background-color: black;
+}
+.infoPrincipal{
+    display: flex;
+    
+}
+.infoPrincipal span{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+.info1{
+    display: flex;
+}
+.infoPrincipal input{
+    margin-top: 2rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    background-color: yellow;
+    border: .3rem solid black;
+    border-left: none;
+    border-radius: .5rem;
+}
+.datosInfoPrincipal{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: yellow;
+    border: .3rem solid black;
+    border-right: none;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botonCruz{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 22rem;
+    width: 7rem;
+    height: 8rem;
+    background-color: #175258;
+}
+.seccion1,.seccion2{
+    display: flex;
+}
+.triangulo1 {
+    width: 0;
+    height: 0;
+    margin-top: .3rem;
+    margin-left: 2.3rem;
+    border-bottom: 1.2rem solid black;
+    border-left: 1.2rem solid transparent;
+    border-right: 1.2rem solid transparent;
+}
+.triangulo2 {
+    width: 0;
+    height: 0;
+    margin-top: .3rem;
+    margin-left: 2.3rem;
+    border-top: 1.2rem solid black;
+    border-left: 1.2rem solid transparent;
+    border-right: 1.2rem solid transparent;
+}
+.triangulo3 {
+    width: 0;
+    height: 0;
+    margin-top: 2.7rem;
+    margin-left: .3rem;
+    border-top: 1.2rem solid transparent;
+    border-bottom: 1.2rem solid transparent;
+    border-left: 1.2rem solid black;
+}
+.triangulo4{
+    width: 0;
+    height: 0;
+    margin-top: 1.3rem;
+    border-top: 1.2rem solid transparent;
+    border-right: 1.2rem solid black;
+    border-bottom: 1.2rem solid transparent;
+}
+.botonEnmedio{
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border: .2rem solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.parte1{
+    width: 2rem;
+    height: 2.5rem;
+    background-color: rgb(241, 60, 60);
+    border-right: .3rem solid black;
+    border-bottom: .3rem solid black;
+}
+.parte2{
+    margin-top: 0rem;
+    margin-left: 3rem;
+    width: 2rem;
+    height: 2.5rem;
+    background-color: rgb(241, 60, 60); 
+    border-left: .3rem solid black;
+    border-bottom: .3rem solid black;
+}
+.parte3{
+    margin-top: 3rem;
+    width: 2rem;
+    height: 2.5rem;
+    background-color: rgb(241, 60, 60); 
+    border-top: .3rem solid black;
+    border-right: .3rem solid black;
+
+
+}
+.parte4{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    width: 2rem;
+    height: 2.5rem;
+    background-color: rgb(241, 60, 60); 
+    border-top: .3rem solid black;
+    border-left: .3rem solid black;
+}
+.volumen1{
+    position: absolute;
+    width: 3.6rem;
+    height: 2rem;
+    margin-left: 24.7rem;
+    margin-top: 6.7rem;
+    background-color: #0A2629;
+    border: .3rem solid black;
+}
+
+.botones{
+    display: flex;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.circulo{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #35868E;
+    border: .3rem solid black;
+    border-radius: 50%;
+}
+.circulo2{
+    
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #0A2629;
+    border: .3rem solid black;
+    border-radius: 50%;  
+}
+.boton1{
+    margin-top: 2rem ;
+    margin-right: 1rem;
+    margin-left: 9rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: #4FD605;
+    border: .3rem solid black;
+    border-radius: 15%;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton2{
+    margin-top: 2rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: orangered;
+    border: .3rem solid black;
+    border-radius: 15%;
+
+}
+.recIzquierdo{
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    background-color: rgb(241, 60, 60);
+    border: .3rem solid black;
+    border-radius: .8rem;
+    width: 40rem;
+    height: 52rem;
+    border-radius: 0% 10%;
+}
+.infoAdicional{
+    margin-top: 3rem;
+    margin-left: 1.7rem;
+    padding: 2rem 2.5rem;
+    width: 29rem;
+    height: 28rem;
+    background-color: greenyellow;
+    border: .3rem solid black;
+    border-radius: 0% 10%;
+}
+.infoAdicional span{
+    font-size: 1.5rem;
+}
+.infoAdicional p{
+    font-size: 1.5rem;
+}
+.grupoBotones{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    width: 16rem;
+    height: 8.5rem;
+    background-color: #0A2629;
+    border: .2rem solid black;
+    border-radius: .5rem;
+}
+.grupo1{
+    display: flex;
+}
+.grupo2{
+    display: flex;
+}
+.cuadro1{
+    width: 4rem;
+    height: 4rem;
+    margin-left: .3rem;
+    margin-right: .2rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.cuadro2{
+    margin-right: .2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.cuadro3{
+    margin-right: .2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.cuadro4{
+    margin-right: .2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.cuadro5{
+    margin-top: .2rem;
+    margin-left: .2rem;
+
+    margin-right: .2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.cuadro6{
+    margin-top: .2rem;
+    margin-right: .2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.cuadro7{
+    margin-top: .2rem;
+    margin-right: .2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.cuadro8{
+    margin-top: .2rem;
+    margin-right: .2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #175258;
+    border: .2rem solid black;
+}
+.grupoFlechas{
+    margin-top: 8rem;
+    margin-left: 0rem;
+    width: 9rem;
+    height: 4.8rem;
+    background-color: #3E4545;
+    border: .2rem solid black;
+    border-radius: .5rem;
+}
+.cuadro9{
+    margin-top: .2rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: gray;
+    border: .2rem solid black;
+}
+.cuadro10{
+    margin-top: .2rem;
+    margin-right: .2rem;
+    margin-left: .3rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: gray;
+    border: .2rem solid black;
+}
+.triangulo6 {
+    width: 0;
+    height: 0;
+    margin-top: .5rem;
+    margin-left: 1.5rem;
+    border-top: 1.2rem solid transparent;
+    border-bottom: 1.2rem solid transparent;
+    border-left: 1.2rem solid black;
+}
+.triangulo5{
+    width: 0;
+    height: 0;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    border-top: 1.2rem solid transparent;
+    border-right: 1.2rem solid black;
+    border-bottom: 1.2rem solid transparent;
+}
+.botonesDerecha{
+    display: flex;
+    position: absolute;
+    margin-left: 16.5rem;
+}
+.boton3{
+    margin-top: 2rem ;
+    margin-right: .5rem;
+    margin-left: 1rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: #4FD605;
+    border: .3rem solid black;
+}
+
+.boton4{
+    margin-top: 2rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: orangered;
+    border: .3rem solid black;
+
+}
+.cambiar{
+    padding: .6rem 1rem;
+    margin-top: 1rem;
+    margin-left: 18rem;
+    width: 12rem;
+    height: 4.7rem;
+    background-color: #3E4545;
+    border: .3rem solid black;
+    border-radius: .4rem;
+}
+.buscar button{
+    width: 10rem;
+    height: 3rem;
+    background-color: gray;
+    border-radius: .2rem;
+}

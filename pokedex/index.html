@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Practica Pokedex</title>
+</head>
+<body>
+    <header class="titulo">
+        <p>Podekex LaunchX</p>
+    </header>
+
+    <main class="container-fluid">
+        <section>
+            <div class="principal">
+                <div class="pokebola1">
+                    <img src="./images/pokebola.png" alt="pokebola" width="100%" height="100%">
+                </div>
+                <div class="pokebola2">
+                    <img src="./images/pokebola.png" alt="pokebola" width="100%" height="100%">
+                </div>
+                
+                <div class="recDerecho">
+                    <div class="detalles">
+                        <div class="detalle1"></div>
+                        <div class="detalle2"></div>
+                        <div class="detalle3"></div>
+                    </div>
+                    
+                    <div class="fotoPrincipal">
+                        
+                        <div class="foto">
+                            <img src="./images/inicio.png" alt="Pokemon" id="pokeImg" width="100%" height="100%">
+                            <!--CODIGO DE JS PARA LA FOTO DESDE LA API-->
+                        </div>
+                        <div class="detalles2">
+                            <div class="detalle4"></div>
+                            <div class="lineas">
+                                <div class="lineas1"></div>
+                                <div class="lineas2"></div>
+                                <div class="lineas3"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- <div class="volumen1"></div> -->
+
+                    <div class="botonCruz">
+                        <div class="botonEnmedio"></div>
+                        <div class="seccion1">
+                            <div class="parte1">
+                                <div class="triangulo1"></div>
+                                <div class="triangulo4"></div>
+                            </div>
+                            <div class="parte2">
+                                <div class="triangulo3"></div> 
+                            </div>
+                        </div>
+                        
+                        <div class="seccion2">
+                            <div class="parte3">
+                                <div class="triangulo2"></div>
+                                
+                            </div>
+                            <div class="parte4">
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="botones">
+                        <div class="boton1"></div>
+                        <div class="boton2"></div>
+                    </div>
+                    <div class="botones">
+                        <div class="circulo2"></div>
+                        <div class="circulo"></div>
+                        
+                        <div class="grupoFlechas">
+                            <div class="grupo1">
+                                <div class="cuadro9">
+                                    <div class="triangulo5"></div>
+                                </div>
+                                <div class="cuadro10">
+                                    <div class="triangulo6"></div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>  
+                </div>
+                <div class="recIzquierdo">
+                    <div class="infoAdicional">
+                        <!--CODIGO JS PARA LA INFO DESDE LA API-->
+                        <p class="fw-bold">Id: <span id="spanpokeMovimientos" name="spanpokeMovimientos">0</span><br></p>
+                        
+
+                        <p class=" card-text fw-bold">Especie: <span id="pokeSpecie" name="pokeSpecie">0</span><br></p>
+
+
+                        <p class="fw-bold">Movimientos: <span id="" name="">0</span><br></p>
+                        
+
+                        <p class="fw-bold">Habilidades: <span id="" name="">0</span><br></p>
+                        
+
+                        <!-- <span class="fw-bold">Id:</span>
+                        <span id="" name=""></span><br> -->
+                    </div>
+                    <div class="grupoBotones">
+                        <div class="grupo1">
+                            <div class="cuadro1"></div>
+                            <div class="cuadro2"></div>
+                            <div class="cuadro3"></div>
+                            <div class="cuadro4"></div>
+                        </div>
+                        <div class="grupo2">
+                            <div class="cuadro5"></div>
+                            <div class="cuadro6"></div>
+                            <div class="cuadro7"></div>
+                            <div class="cuadro8"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="infoPrincipal">
+                        <div class="datosInfoPrincipal">
+                        <!--CODIGO DE JS PARA LA INFO DESDE LA API-->
+                            <div class="info1">
+                                <span class="fw-bold">Nombre: </span>
+                            </div> 
+
+                        </div>
+                        <input class="nombre form-control" type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>                       
+
+                    </div>
+
+                    <div class="cambiar">
+                        <div class="buscar">
+                            <button class="fw-bold" onclick="fetchPokemon()">Cambiar Imágen</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="./js/pokedex2.js?ver2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
